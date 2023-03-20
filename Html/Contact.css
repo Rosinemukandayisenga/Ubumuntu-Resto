@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Images/f3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 5%;
+}
+.box-container{
+width: 100%;
+display: flex;
+}
+.box-one{
+    background-color: black;
+    margin: 60px;
+    padding: 10px;
+    /* border: 20px solid grey; */
+    width: 400px;
+    height: 700px;
+    opacity: 0.5;
+}
+.box-one h4{
+    color: orangered;
+    text-align: center;
+    font-size: 18px;
+    font-family: monospace;
+}
+.box-one p{
+    color: white;
+    display: justify;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.flex-box{
+    background-color: black;
+    margin: 60px;
+    padding: 10px;
+    /* border: 20px solid grey; */
+    width: 800px;
+    height: 700px;
+    opacity: 0.5;     
+}
+.flex-box h4{
+    color: orangered;
+    text-align: center;
+    font-family: monospace;
+     font-size: 25px;
+}
+ p{
+    color: white;
+    font-weight: bolder;
+}
+.flex-box h5{
+color: white;
+    display: justify;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+button{
+    background: orangered;
+    color:white;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    align-items: center;
+    margin-left:30%;
+    margin-bottom: 20%;
+}
+
+

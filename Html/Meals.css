@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    font-weight: normal;
+    position: relative;
+    font-family: monospace;
+    margin: 40px 0px;
+}
+h1::before{
+content: '';
+position: absolute;
+width: 100px;
+height: 3px;
+bottom: -10px;
+background-color: orangered;
+left: 50%;
+transform: translateX(-50%);
+animation: animate 3s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+.top-content{
+   background-color: rgb(192, 59, 11);
+   width: 90%;
+   margin: 0 auto 20px auto; 
+   height: 60px;
+   display: flex;
+   align-items: center;
+   border-radius: 50px;
+   box-shadow: 2px 4px 10px black;
+}
+h3{
+    height: 100%;
+    background-color: rgb(243, 68, 5);
+    line-height: 60px;
+    padding: 0 10px;
+    color: white;
+    border-radius: 50px;
+}
+label{
+    white-space: nowrap;
+    height: 100%;
+    padding: 0px 20px;
+    margin: 0 50px;
+    line-height: 60px;
+    cursor:pointer;
+    animation: 0.3s all ease;
+}
+label:hover{
+    /* color:black; */
+     background:black;
+     border-radius: 50px;
+}
+label a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.Roasted-Chicken{
+    width: 90%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.Roasted-Chicken1{
+    position:relative;
+    height:230px;
+}
+.Roasted-Chicken1 img{
+    width: 80%;
+    height:80%;
+    border-radius: 10px;
+}
