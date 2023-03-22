@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 body{
-   background-image: url(../Images/bo.PNG);
+   background-image: url(./Images/bo.PNG);
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
