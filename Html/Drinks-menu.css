@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../Images/cof.jpeg);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../Images/bo.PNG);
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 table{
     align-items: center;
@@ -31,7 +31,7 @@ h2{
     text-decoration: underline;
     font-family: monospace;
     font-size: 40px;
-    color: orangered;
+    color: white;
     margin-top: 40px;
 }
 h4{

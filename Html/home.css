@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: skyblue; */
+    background-image:url(../images/ub9.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    /* opacity: 0.1; */
+
+}
+body img{
+  opacity: 0.5;  
+}
+h1{
+    color:orange;
+    padding-left: 4%;
+}
+h2{
+    color:white;
+    padding-left: 17%;
+    padding-top: 10%;
+}
+p{
+color: beige;
+padding-left: 17%;
+padding-top: 10%;
+/* clip-path: polygon(50% 0, 100% 100%, 0% 100%); */
+}
+p span{
+    color: orange;
+    font-size: 20px;
+}
+span{
+    color: white;
+}
+.nav{
+float: right;
+}
+.nav ul {
+    /* list-style: none; */
+    display: flex;
+    gap: 20px;
+    list-style-type: none;  
+}
+.nav ul li a{
+    font-size: 17px;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;   
+}
+:active,.nav ul li a:hover{
+ color:orange;
+ transition: .4s ease;
+}
+button{
+    background-color: orange;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border: none;
+    margin-left: 40%;
+    border-radius: 30px;
+}
+button:hover{
+    color:black;
+    background-color: red;
+
+}
+.sub-menu1{
+    display: none;
+}
+.nav ul li  .sub-menu1{
+    display: block;
+    position:absolute;
+    background-color:grey;
+}
+

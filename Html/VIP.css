@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../Images/ro1.jpeg);
+    background-image: url(../Images/bo.PNG);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 h3{
     text-align: center;
-    color:orangered;
+    color:white;
     font-size: 40px;
     font-family: monospace;
     padding-top: 30px;
@@ -35,9 +35,10 @@ h3{
 .box{
     width: 500px;
     height: 700px;
-    background: orangered;
+    background: rgb(60, 83, 60);
     margin: 50px;
     border-radius: 30px;
+    padding: 40px;
 }
 .box h1{
     color: white;
@@ -86,7 +87,7 @@ input{
     margin-left: 30%;
 }
 button{
-    background: orangered;
+    background:linear-gradient(to left,rgb(37, 59, 37),white);
     color:white;
     width: 200px;
     border-radius: 10px;

@@ -4,11 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../Images/fi2.jpg);
+    background-image: url(../Images/bo.PNG);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    /* opacity:0.5;filter:alpha(opacity=40); */
     /* opacity: 0.3; */
+    
 }
 table{
     align-items: center;

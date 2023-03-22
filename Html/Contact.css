@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../Images/f3.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   background-image: url(../Images/bo.PNG);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   opacity: 1;
 }
 h2{
     color: white;
@@ -19,18 +20,19 @@ h2{
 .box-container{
 width: 100%;
 display: flex;
+gap: 0px;
 }
 .box-one{
-    background-color: black;
+    background-color: rgb(56, 77, 56);
     margin: 60px;
     padding: 10px;
     /* border: 20px solid grey; */
     width: 400px;
     height: 700px;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 .box-one h4{
-    color: orangered;
+    color: white;
     text-align: center;
     font-size: 18px;
     font-family: monospace;
@@ -44,16 +46,16 @@ display: flex;
     letter-spacing: 2px;
 }
 .flex-box{
-    background-color: black;
+    background-color:rgb(56, 77, 56) ;
     margin: 60px;
     padding: 10px;
     /* border: 20px solid grey; */
     width: 800px;
     height: 700px;
-    opacity: 0.5;     
+    opacity:0.9;     
 }
 .flex-box h4{
-    color: orangered;
+    color: white;
     text-align: center;
     font-family: monospace;
      font-size: 25px;
@@ -71,7 +73,7 @@ color: white;
     letter-spacing: 2px;
 }
 button{
-    background: orangered;
+    background: linear-gradient(to left,rgb(2, 51, 2),white);
     color:white;
     width: 100px;
     height: 50px;

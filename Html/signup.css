@@ -6,13 +6,22 @@
     text-decoration: none;
 }
 body{
-    background-image: url(../Images/f2.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+   background-image: url(../Images/bo.PNG);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   opacity: 0.7;
+}
+
+.flex-box{
+    background: rgb(83, 102, 83);
+    width: 60%;
+    height: 30%;
+    margin-left: 25%;
+     opacity: 0.3; 
 }
 h3{
-color: black;
+color: white;
 font-family: monospace;
 text-align: center;
 padding-top: 30px;
@@ -31,11 +40,21 @@ input{
     width: 18%;
     border-radius: 20px;
 }
+i{
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+}
 button{
-    background: orangered;
+    background:linear-gradient(to right,orangered,black);
     color:white;
     border-radius: 10px;
     width: 100px;
     height: 40px;
     margin-bottom: 50px;
+    
 }

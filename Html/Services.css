@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../Images/bo.PNG);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h2{
+color: white;
+font-family: monospace;
+font-size: 30px;
+text-align: center;
+margin-top: 5%; 
+}
+h2{
+font-weight: normal;
+position: relative;
+font-family: monospace;
+margin: 40px 0px;
+}
+h2::before{
+content: "";
+position: absolute;
+width: 100px;
+height: 3px;
+bottom: -10px;
+background-color: black;
+left: 50%;
+transform: translateX(-50%);
+animation: animate 3s linear infinite;
+}
+@keyframes animate {
+    0%{
+        width: 200px;
+    }
+    50%{
+        width: 100px;
+    }
+    100%{
+        width: 200px;
+    }
+}
+.flex-container{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.box1{
+    margin-left: 60px;
+    padding: 30px;
+    border-radius: 20px;
+    width: 400px;
+    height: 500px;
+    font-size: 20px;
+    font-family: monospace;
+    background:black;
+    text-align: center;
+    font-weight: lighter;
+    opacity: 0.2;
+}
+.box1 p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.box2{
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    height: 500px;
+    background: black;  
+    opacity: 0.2;
+}
+.box2 p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+.box3{
+    text-align: center;
+    font-size: 20px;
+    font-family: monospace;
+    padding: 30px;
+    width: 400px;
+    border-radius: 20px;
+    height: 500px;
+    background: black;
+    opacity: 0.2;   
+}
+h3{
+    color: white;
+}
+.box3 p{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;  
+}
+footer{
+    background: black;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 10px;
+    opacity: 0.2;
+}
+footer h4{
+    color: white;
+}
+
+
