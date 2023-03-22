@@ -46,7 +46,7 @@ input {
 button{
     width: 100px;
     height: 30px;
-    background: linear-gradient(to left,orangered,black);
+    background: linear-gradient(to left,green,black);
     color: white;
     margin-left: 50%;
     border-radius: 10px;
